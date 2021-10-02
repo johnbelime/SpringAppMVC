@@ -48,7 +48,7 @@ public class WelcomeController {
 
 	@RequestMapping("/hello2")
 	public String hello2() {
-		return "hello2";
+		return "hello3";
 	}
 
 }
