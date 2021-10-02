@@ -41,4 +41,9 @@ public class WelcomeController {
 		throw new RuntimeException("Foo");
 	}
 
+	@RequestMapping("/hello")
+	public String hello() {
+		return "hello";
+	}
+
 }
